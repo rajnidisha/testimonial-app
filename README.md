@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Testimonial App
 
 This is a simple testimonial web application built using Node.js, Express, MongoDB, and EJS.
@@ -26,3 +27,6 @@ testimonial-app/
 ├── testimonialApp.js # Main server file
 ├── package.json # Project metadata
 └── README.md # You're reading it 
+=======
+# testimonial-app
+>>>>>>> ed510fb3ccb295188365f96df7254003713a7bfa
