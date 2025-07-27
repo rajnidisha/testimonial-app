@@ -1,0 +1,22 @@
+# Node modules (should never be pushed)
+node_modules/
+
+# Environment variables (API keys, passwords, DB URL)
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific
+.vscode/
+.idea/
+
+# Build outputs (if any in future)
+dist/
+build/

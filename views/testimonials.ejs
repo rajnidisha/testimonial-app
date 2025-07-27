@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All Testimonials</title>
+  <link rel="stylesheet" href="/styles.css"/>
+</head>
+<body class="testimonials-page">
+  <%- include('partials/navbar') %>
+
+  <div class="container">
+    <h1>All Testimonials</h1>
+    <% testimonials.forEach(t => { %>
+      <div class="testimonial-box">
+        <h3><%= t.name %></h3>
+        <p><%= t.message %></p>
+        <a href="/testimonial/<%= t._id %>" class="view-link">View</a>
+      </div>
+    <% }) %>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 TestimonialApp. All rights reserved.</p>
+  </footer>
+</body>
+</html>
